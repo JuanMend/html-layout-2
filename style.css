@@ -1,0 +1,136 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("https://img.freepik.com/free-vector/vector-abstract-color-3d-hexagonal_2065-221.jpg?size=338&ext=jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+
+.link
+{
+  width: 60px;
+  height: 45px;
+  cursor: pointer;
+  
+}
+
+.owl
+{
+    width: 60px;
+    height: 70px;
+    background: #888;
+}
+
+.down
+{
+   height: 5vh;
+   width: 11px;
+   cursor: pointer;
+}
+
+#image
+{
+    width: 50px;
+    height: 50px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+header a 
+{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+
+header a:hover
+{
+    color: lightgray;
+}
+button
+{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    cursor: pointer;
+    background: #fff;
+    font-size: 12px;
+}
+
+button:hover
+{
+   color: #fff;
+   background: #000;
+}
+
+.fa-linkedin
+{
+    width: 70px;
+    height: 100px;
+}
+
+#inside
+{
+   
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: 30vh;
+}
+
+
+h1
+{
+    flex-direction: row;
+    font-size: 55px;
+}
+
+#para 
+{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 46%;
+    height: 14vh;
+    overflow: hidden;
+    font-size: 21px;
+    word-spacing: 2px;
+    color: rgb(122, 122, 122);
+
+}
+
+
+#exploreBtn
+{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    background: rgb(253, 72, 59);
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 40px;
+    border: 1px solid rgb(253, 72, 59);
+}
+
+#exploreBtn:hover
+{
+    background: white;
+    color: rgb(253, 72, 59);
+}
